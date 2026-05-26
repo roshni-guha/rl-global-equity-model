@@ -146,7 +146,7 @@
         \text{BMOM} = 0.15\,m_{20} + 0.35\,m_{60} + 0.35\,m_{120} + 0.15\,m_{240}
       \]
       Triangular weights emphasise the 3--6 month horizon --- the strongest empirically documented momentum effect.\\[0.5em]
-      One BMOM score is computed for each \textbf{signal ticker} (TLT, VIXY, IBIT), giving the model 3 momentum inputs that capture trend strength in bonds, volatility, and crypto --- regimes the macro level alone misses.\\[0.5em]
+      One BMOM score is computed for each \textbf{signal ticker} (TLT, VIXY), giving the model 3 momentum inputs that capture trend strength in bonds, volatility, and crypto --- regimes the macro level alone misses.\\[0.5em]
       Together: macro leads, BMOM confirms.
     \end{column}
   \end{columns}
@@ -178,7 +178,7 @@
     \node[inbox] (macro) at (-2.8, 0)
       {7 Macro Features\\[-0.15em]{\tiny Fed $\cdot$ M2 $\cdot$ TLT $\cdot$ VIX $\cdot$ Yield $\cdot$ EPS}};
     \node[inbox] (bmom) at (2.8, 0)
-      {3 BMOM Scores\\[-0.15em]{\tiny TLT $\cdot$ VIXY $\cdot$ IBIT}};
+      {3 BMOM Scores\\[-0.15em]{\tiny TLT $\cdot$ VIXY }};
 
     \node[hidbox] (h1) at (0, -1.35)
       {Layer 1\quad Linear($10 \to 128$)\quad LayerNorm\quad ReLU};

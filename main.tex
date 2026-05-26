@@ -71,7 +71,6 @@ BMOM momentum composites are computed for three signal tickers fed into the stat
 \midrule
 TLT-US  & Long-duration bond momentum; risk-off regime signal \\
 VIXY-US & Volatility momentum; equity fear gauge \\
-IBIT-US & Bitcoin momentum; cross-asset liquidity signal \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -313,5 +312,8 @@ The hybrid provides positive marginal contribution across most of the window. It
 
 A PPO agent trained on a compact macro-momentum state space learns durable rotation rules that generalise across 11+ years of unseen data. The standalone model matches SPY returns (13.3\%, Sharpe 0.75) with no post-2013 exposure. The hybrid overlay adds an institutional-grade risk floor (max DD $-$30.0\%, Calmar 0.41) at a cost of 99\,bps. When integrated into a mean-variance portfolio alongside AMMA models, the sleeve delivers incremental risk-adjusted return with positive marginal contribution over 2020--2025.
 
+
+\textbf{Note (Post-Review):} The standalone RL model has been 
+selected for continued development and refinement over the Hybrid model. 
 % ══════════════════════════════════════════════════════════════════════════════
 \end{document}
